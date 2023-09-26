@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ing. Lenin_Chavez">
+    <meta name="description" content="This page contains all the things I am learning to create as I lear HTML">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic_HTML</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <header>
+    <h1>My goals for the year</h1>
+
+    <nav aria-label="primary-navigation">
+       <!-- <h2 id="primary-navigation">Primary Navigation</h2>--> 
+        <ul>
+            <li>
+                <a href="#html">Learning HTML</a>
+            </li>
+            <li>
+                <a href="#vacation">Planning a Vacation</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+
+    <hr> <!--This tag is horizontal rule-->
+    <main>
+    <article>
+        <section>
+            <h2>I'm ready to Learn HTML</h2>
+            <p>THis is my first web page</p>
+            <h3>HTML5</h3>
+            <section>
+            <img src="./imgs/html5_logo.png" alt="HTML5 Logo" title="I am Learning HTML5 code" width="300" height="300">
+            <figure>
+            <figcaption>An Example of HTML5 code</figcaption>
+            <p>
+                <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+            </p>
+        </figure>
+        </section>
+        <section>
+        <h3>My Daily SChedule</h3>
+        <p>Let me tell you how:</p>
+        <ol>
+            <li>...I learn more about we dev</li>
+            <li>...I plan out my schedule</li>
+            <li>...I use resources from <abbr title="Mozilla Develper NEtwork">
+                <a href="https://developer.mozilla.org/en-US/">MDN</a>
+            </abbr>.</li>
+        </ol>
+        <aside>
+            <details>
+                <summary>Guest the <mark> number of hours</mark> I code per day</summary>
+                <p>I start at <time datetime="08:00">08:00am</time> and I write code for <time datetime="PT3H"> 3 hours</time> every morning.</p>
+            </details>
+        </aside>
+        </section>
+    </article>
+    <hr>
+    <article id="vacation">
+        <h2>I am also Planning a Vacation</h2>
+        <p>I've been working hard and <em>really need a getway</em></p>
+        <p>I live in <abbr title="Nicaragua">NCA</abbr> so I want visit a beach</p>
+
+
+        <section>
+        <h3>Places I'd Like to Visit</h3>
+        <ul>
+            <li>
+                <p>I've heard good things about the Caribbean</p>
+                <figure>
+                    <img src="./imgs/carebbean.jpeg" alt="Caribbean Beach" title="I want to visit a Caribbean beach." width="400" height="225" loading="lazy">
+                    <figcaption>
+                        Caribbean Beach Getway
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <p>I've head good things about going here:</p>
+                <address>
+                    Margaritaville Island Reserve Riviera Cancun<br>
+                    Bahia Petempich Puerto Morelos, Mexico<br>
+                    Colonia, Morelos, Mexico 77580
+                </address>
+                <figure>
+                    <img src="./imgs/vacation_time.jpeg" alt="Cancun Vacation" title="It's 8 o'Clock Somewhere!" width="400" height="267" loading="lazy">
+                    <figcaption>
+                        A Caribbean Vacation Image
+                    </figcaption>
+                </figure> 
+            </li>
+        </ul>
+        </section>
+        <!--TODO: Add more places, try to avoid this below tags elements
+        <div></div>
+        <span></span>-->
+        
+        <section>
+            <h3>Places I want to avoid</h3>
+            <dl>
+            <dt>North Pole</dt>
+            <dd>I hear this is <strong>cold</strong>!</dd>
+
+            <dt>South Pole</dt>
+            <dd>This is also cold</dd>
+
+            <dt>Mountains Tops</dt>
+            <dd>This is also cold</dd>
+        </dl>
+        </section>
+    </article>
+</main>
+
+    <footer>
+    <hr>
+    <p>
+    &lt;&lt;&lt; &copy; <a href="about.html">Ing. Lenin Chavez</a>
+    a> &gt;&gt;&gt;
+    </p>
+    <p>
+        <a href="#">Back to the Top</a>
+    </p>
+    </footer>
+
+
+</body>
+</html> 
